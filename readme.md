@@ -20,7 +20,7 @@ si l'ordinateur que sur lequel je dois déployer n'est pas exactement pareil au 
 
 #Notes
 
-Il manque la configuration de sendmail pour que les emails soit envoyé pour vrai à partir du domaine de la pizzeria.
+Il manque la configuration de sendmail pour que les emails soit envoyés pour vrai à partir du domaine de la pizzeria.
 Le message ne devrait être envoyé qu'après le paiement pour éviter des abus, ou du moins demander un captcha si la pizza est gratuite.
 
 Les commandes sont gardées dans le fichier commandes.txt en JSON.
