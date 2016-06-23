@@ -8,7 +8,7 @@ L'interface a été créée à partir de bootstrap. Le PHP est vanilla sans fram
 
 Bootstrap est dur à battre quand il s'agit de faire un site web avec une belle interface rapidement, malheureusement, les 
 sites fait avec bootstrap ont un peu tendance à se ressembler. Pour une application plus grosse j'utiliserais Symphony, mais 
-j'aime bien la simplicité du PHP vanilla quand l'application n'est pas trop grosse. Je garde par contre une séparation entre les parties qui
+j'aime bien la simplicité du PHP vanilla quand l'application à faire est petite. Je garde par contre une séparation entre les parties qui
 font la logique de mon code et celles qui font plus la mise en page pour pouvoir facilement intégrer un framework si l'application s'avère plus 
 grosse que prévue. 
 
@@ -26,4 +26,4 @@ Le message ne devrait être envoyé qu'après le paiement pour éviter des abus,
 Les commandes sont gardées dans le fichier commandes.txt en JSON.
 
 La liste de condiments ainsi que le nombre requis de condiments sont dans options.php. Le programme vérifie également si ces options ont changées entre le 
-moment où la page est chargée et le moment où la requète est envoyée, pour ne pas envoyé une facture différente de ce que le client s'attendait.
+moment où la page est chargée et le moment où la requète est envoyée, pour ne pas envoyer une facture différente de celle que le client s'attendait recevoir.
