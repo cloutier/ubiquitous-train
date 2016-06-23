@@ -7,7 +7,7 @@ docker run -p 80:80 cloutier/ubiquitous-train
 L'interface a été créée à partir de bootstrap. Le PHP est vanilla sans framework, et il a été écrit avec Vim sur Ubuntu.
 
 Bootstrap est dur à battre quand il s'agit de faire un site web avec une belle interface rapidement, malheureusement, les 
-sites fait avec bootstrap ont un peu tendance à se ressembler. Pour une application plus grosse j'utiliserais Symphony, mais 
+sites fait avec bootstrap ont un peu tendance à se ressembler. Pour une application plus grosse j'utiliserais Symfony, mais 
 j'aime bien la simplicité du PHP vanilla quand l'application à faire est petite. Je garde par contre une séparation entre les parties qui
 font la logique de mon code et celles qui font plus la mise en page pour pouvoir facilement intégrer un framework si l'application s'avère plus 
 grosse que prévue. 
